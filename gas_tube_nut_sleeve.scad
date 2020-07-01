@@ -8,3 +8,27 @@ difference() {
 polygon([[-(nut_e/2), 0], [-(nut_e/4), (nut_s/2)], [(nut_e/4), (nut_s/2)], [(nut_e/2), 0], [(nut_e/4), -(nut_s/2)], [-(nut_e/4), -(nut_s/2)]]);
     }
 }
+minkowski() {
+    translate([-0.5, 10, 0])
+    cube([1,4,7]);
+    // rounded corners
+    cylinder(r=1,h=1);
+}
+minkowski() {
+    translate([-0.5, -14, 0])
+    cube([1,4,7]);
+    // rounded corners
+    cylinder(r=1,h=1);
+}
+minkowski() {
+    translate([10, -0.5, 0])
+    cube([4,1,7]);
+    // rounded corners
+    cylinder(r=1,h=1);
+}
+minkowski() {
+    translate([-14, -0.5, 0])
+    cube([4,1,7]);
+    // rounded corners
+    cylinder(r=1,h=1);
+}
