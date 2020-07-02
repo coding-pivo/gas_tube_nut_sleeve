@@ -21,12 +21,28 @@ minkowski() {
     cylinder(r=1,h=1);
 }
 minkowski() {
+    rotate([0, 0, 30])
     translate([10, -0.5, 0])
     cube([4,1,7]);
     // rounded corners
     cylinder(r=1,h=1);
 }
 minkowski() {
+    rotate([0, 0, -30])
+    translate([10, -0.5, 0])
+    cube([4,1,7]);
+    // rounded corners
+    cylinder(r=1,h=1);
+}
+minkowski() {
+    rotate([0, 0, 30])
+    translate([-14, -0.5, 0])
+    cube([4,1,7]);
+    // rounded corners
+    cylinder(r=1,h=1);
+}
+minkowski() {
+    rotate([0, 0, -30])
     translate([-14, -0.5, 0])
     cube([4,1,7]);
     // rounded corners
